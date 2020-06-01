@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <section class="hero is-primary is-fullheight">
+
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+
+                            <a href="{{ url_for('index') }}" class="navbar-item">
+                                Home
+                            </a>
+                            <a href="{{ url_for('login') }}" class="navbar-item">
+                                Login
+                            </a>
+                             <a href="{{ url_for('signup') }}" class="navbar-item">
+                              Signup
+                            </a>
+                          
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+{% endblock %}
+                    
